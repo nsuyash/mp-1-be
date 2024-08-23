@@ -31,7 +31,7 @@ app.get('/products', async (req, res) => {
     const products = await obtainAllProducts();
 
     if (products.length > 0) {      
-      res.status(200).json({ products });
+      res.status(200).json(products);
     } else {
       res.status(404).json({ error: "Products Not Found." });
     }
