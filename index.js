@@ -71,7 +71,7 @@ app.get('/products/:productId', async (req, res) => {
 async function getAllProductOfMobilesAndTablets(filters) {
   try {
     // Include both category and filters in the query object
-    const query = { collectionType: "Mobiles&Tablets", ...filters };
+    const query = { collectionType: "mobiles&tablets", ...filters };
     const products = await Products.find(query);
     return products;
   } catch (error) {
@@ -80,7 +80,7 @@ async function getAllProductOfMobilesAndTablets(filters) {
 }
 
 // Route to handle GET request for "Mobiles & Tablets" collection
-app.get('/collection/Mobiles&Tablets', async (req, res) => {
+app.get('/collection/mobiles&tablets', async (req, res) => {
   try {
     const { brand, ram, internalStorage, primaryCamera, secondaryCamera, processor } = req.query;
 
@@ -150,7 +150,7 @@ app.get('/collection/Mobiles&Tablets', async (req, res) => {
 async function getAllProductOfLaptops(filters){
   try {
     console.log(filters)
-    const query = {collectionType: "Laptops", ...filters}
+    const query = {collectionType: "laptops", ...filters}
     const products = await Products.find(query)
     return products
   } catch (err) {
@@ -159,7 +159,7 @@ async function getAllProductOfLaptops(filters){
 }
 
 // Route to handle GET request for "laptops" collection
-app.get('/collection/Laptops', async (req, res) => {
+app.get('/collection/laptops', async (req, res) => {
   try {
 
     const {brand, ram , ssd, type, processorBrand, processorGeneration, processor} = req.query

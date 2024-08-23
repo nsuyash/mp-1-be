@@ -1,8 +1,8 @@
 [
-  //////////////////////////////////////////////////////Mobiles&Tablets/////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////mobiles&tablets/////////////////////////////////////////////////////////
   
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy S23 FE",
     "modelSubContent": "(Mint, 128 GB)",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy A15 5G",
     "modelSubContent": "(Blue, 128 GB)",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy F15 5G",
     "modelSubContent": "(Groovy Violet, 128 GB)",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy F34 5G",
     "modelSubContent": "(Electric Black, 128 GB)",
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy S23 5G",
     "modelSubContent": "(Green, 256 GB)",
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy Z Flip3 5G",
     "modelSubContent": "(Cream, 128 GB)",
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "SAMSUNG Galaxy S23 FE",
     "modelSubContent": "(Mint, 256 GB)",
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Samsung Galaxy S21 FE 5G with Snapdragon 888",
     "modelSubContent": "(Navy, 128 GB)",
@@ -354,7 +354,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "SAMSUNG Galaxy Tab S9 FE+",
     "modelSubContent": "(8 GB RAM 128 GB ROM 12.4 Inch with Wi-Fi Only Tablet) (Gray)",
@@ -399,7 +399,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "SAMSUNG Galaxy Tab S9+",
     "modelSubContent": "(12 GB RAM 256 GB ROM 12.4 Inch with Wi-Fi Only Tablet) (Graphite)",
@@ -444,7 +444,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI 13C",
     "modelSubContent": "(Starshine Green, 128 GB) (4 GB RAM)",
@@ -488,7 +488,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI 12",
     "modelSubContent": "(Moonstone Silver, 128 GB)  (6 GB RAM)",
@@ -532,7 +532,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI 13C",
     "modelSubContent": "(Stardust Black, 128 GB)  (4 GB RAM)",
@@ -576,7 +576,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI Note 13 5G",
     "modelSubContent": "(Chromatic Purple, 128 GB)  (6 GB RAM)",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI Note 13 Pro 5G",
     "modelSubContent": "(Coral Purple, 256 GB)  (12 GB RAM)",
@@ -664,7 +664,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI 12 5G",
     "modelSubContent": "(Pastel Blue, 256 GB)  (8 GB RAM)",
@@ -709,7 +709,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "REDMI Note 12 Pro 5G",
     "modelSubContent": "(Stardust Purple, 256 GB)  (8 GB RAM)",
@@ -753,7 +753,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "REDMI Pad",
     "modelSubContent": "(4 GB RAM 128 GB ROM 10.61 Inch with Wi-Fi Only Tablet) (Graphite Gray)",
@@ -798,7 +798,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "REDMI Pad Pro",
     "modelSubContent": "(6 GB RAM 128 GB ROM 12.1 inch with Wi-Fi Only Tablet) (Mist Blue)",
@@ -843,7 +843,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "REDMI Pad Pro 5G",
     "modelSubContent": "(8 GB RAM 128 GB ROM 12.1 inch with Wi-Fi+5G Tablet) (Graphite Grey)",
@@ -889,7 +889,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 12",
     "modelSubContent": "(Blue, 64 GB)",
@@ -936,7 +936,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 13",
     "modelSubContent": "(Pink, 128 GB)",
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 14",
     "modelSubContent": "(Blue, 128 GB)",
@@ -1022,7 +1022,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 15",
     "modelSubContent": "(Black, 256 GB)",
@@ -1065,7 +1065,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 15 Pro",
     "modelSubContent": "(Blue Titanium, 512 GB)",
@@ -1108,7 +1108,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 14 Plus",
     "modelSubContent": "(Blue, 512 GB)",
@@ -1151,7 +1151,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "mobile",
     "modelName": "Apple iPhone 11",
     "modelSubContent": "(White, 64 GB)",
@@ -1194,7 +1194,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "Apple iPad mini (6th Gen)",
     "modelSubContent": "(64 GB ROM 8.3 inch with Wi-Fi Only) (Pink)",
@@ -1238,7 +1238,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "Apple iPad Air (5th gen)",
     "modelSubContent": "(8 GB RAM 64 GB ROM 10.9 Inch with Wi-Fi+5G) (space Grey)",
@@ -1284,7 +1284,7 @@
     ]
   },
   {
-    "collectionType": "Mobiles&Tablets",
+    "collectionType": "mobiles&tablets",
     "subCollectionType": "tablet",
     "modelName": "Apple 2022 iPad Pro (6th Gen)",
     "modelSubContent": "(16 GB RAM 512 GB ROM 12.9 inch with Wi-Fi Only) (Silver)",
@@ -1330,10 +1330,10 @@
   },
 
 
-  /////////////////////////////////////////////////////////////Laptops//////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////laptops//////////////////////////////////////////////////////////
 
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "ASUS Vivobook 15 Intel Core i3 12th Gen 1215U",
     "modelSubContent": "(8 GB/512 GB SSD/Windows 11 Home)",
@@ -1377,7 +1377,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "ASUS Vivobook Go 15 (2024) Intel Celeron Dual Core N4020",
     "modelSubContent": "(4 GB/256 GB SSD/Windows 11 Home)",
@@ -1421,7 +1421,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "Lenovo V15 AMD Ryzen 3 Quad Core 7320U",
     "modelSubContent": "(32 GB/1 TB SSD/Windows 11 Home)",
@@ -1464,7 +1464,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "ASUS TUF Gaming F15 Intel Core i5 12th Gen 12500H",
     "modelSubContent": "(16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050)",
@@ -1506,7 +1506,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "HP Omen Intel Core i7 13th Gen 13700HX",
     "modelSubContent": "(16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 3050)",
@@ -1548,7 +1548,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "Lenovo Yoga 6 AMD Ryzen 7 Octa Core 7730U",
     "modelSubContent": "(16 GB/1 TB SSD/Windows 11 Home)",
@@ -1592,7 +1592,7 @@
     ]
   },
   {
-    "collectionType": "Laptops",
+    "collectionType": "laptops",
     "subCollectionType": "laptop",
     "modelName": "HP Spectre x360 Intel Core i5 10th Gen 1035G4",
     "modelSubContent": "(8 GB/512 GB SSD/Windows 10 Home)",
@@ -1635,6 +1635,6 @@
     ]
   }
 
-  /////////////////////////////////////////////////////////////Laptops//////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////laptops//////////////////////////////////////////////////////////
 
 ]
