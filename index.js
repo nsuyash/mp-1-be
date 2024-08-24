@@ -136,7 +136,7 @@ app.get('/collection/mobiles&tablets', async (req, res) => {
       const availableProcessor = await Products.distinct('features.processor', {collectionType: 'mobiles&tablets'})
       
       
-      res.status(200).json({products, filters: {brand: availableBrand, ram: availableRam, internalStorage: availableInternalStorage, primaryCamera: availablePrimaryCamera, secondaryCamera: availableSecondaryCamera, processor: availableProcessor}});
+      res.status(200).json({products, filters: {brand: availableBrand, ram: availableRam, internalXstorage: availableInternalStorage, primaryXcamera: availablePrimaryCamera, secondaryXcamera: availableSecondaryCamera, processorXbrand: availableProcessor}});
     } else {
       res.status(404).json({ message: "No products found matching the criteria."});
     }
@@ -212,7 +212,7 @@ app.get('/collection/laptops', async (req, res) => {
       const availableProcessorGeneration = await Products.distinct('features.processor&nbsp;generation', { collectionType : 'laptops' })
       const availableProcessorNames = await Products.distinct('features.processor', { collectionType : 'laptops' })
       
-      res.status(200).json({products, filters: {brand: availableBrands, ram: availableRams, ssd: availableSsds, processorBrand: availableProcessorBrands, processorGeneration: availableProcessorGeneration, processorName: availableProcessorNames}})
+      res.status(200).json({products, filters: {brand: availableBrands, ram: availableRams, ssd: availableSsds, processorXbrand: availableProcessorBrands, processorXgeneration: availableProcessorGeneration, processorXname: availableProcessorNames}})
     } else {
       res.status(404).json({error: "No products found matching the criteria."})
     }
