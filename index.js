@@ -88,13 +88,13 @@ app.get('/collection/mobiles&tablets', async (req, res) => {
 
     // Apply brand filter
     if (brand) {
-      const brandName = brand.split(",").map(value => (value.trim())
+      const brandName = brand.split(",").map(value => value.trim())
       filters["features.brand"] = { $in: brandName };
     }
 
     // Apply RAM filter
     if (ram) {
-      const ramValues = ram.split(",").map(value => (value.trim())
+      const ramValues = ram.split(",").map(value => value.trim())
       filters["features.ram"] = { $in: ramValues };
     }
 
