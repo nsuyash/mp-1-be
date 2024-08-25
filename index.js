@@ -126,19 +126,18 @@ app.get('/collection/mobiles&tablets', async (req, res) => {
     const products = await getAllProductOfMobilesAndTablets(filters);
 
     // Check if products are found and return response
-    if (products && products.length > 0) {
-
-      const availableBrand = await Products.distinct('features.brand', {collectionType: 'mobiles&tablets'})
-      const availableRam = await Products.distinct('features.ram', {collectionType: 'mobiles&tablets'})
-      const availablePrimaryCamera = await Products.distinct('features.primaryCamera', {collectionType: 'mobiles&tablets'})
-      const availableSecondaryCamera = await Products.distinct('features.secondaryCamera', {collectionType: 'mobiles&tablets'})
-      const availableInternalStorage = await Products.distinct('features.internalStorage', {collectionType: 'mobiles&tablets'})
-      const availableProcessor = await Products.distinct('features.processor', {collectionType: 'mobiles&tablets'})
-      
+    const availableBrand = await Products.distinct('features.brand', {collectionType: 'mobiles&tablets'})
+    const availableRam = await Products.distinct('features.ram', {collectionType: 'mobiles&tablets'})
+    const availablePrimaryCamera = await Products.distinct('features.primaryCamera', {collectionType: 'mobiles&tablets'})
+    const availableSecondaryCamera = await Products.distinct('features.secondaryCamera', {collectionType: 'mobiles&tablets'})
+    const availableInternalStorage = await Products.distinct('features.internalStorage', {collectionType: 'mobiles&tablets'})
+    const availableProcessor = await Products.distinct('features.processor', {collectionType: 'mobiles&tablets'})
+    
+    if (products && products.length > 0) {     
       
       res.status(200).json({products, filters: {brand: availableBrand, ram: availableRam, internalXstorage: availableInternalStorage, primaryXcamera: availablePrimaryCamera, secondaryXcamera: availableSecondaryCamera, processorXbrand: availableProcessor}});
     } else {
-      res.status(404).json({ message: "No products found matching the criteria."});
+      res.status(404).json({ message: "No products found matching the criteria.", filters: {brand: availableBrand, ram: availableRam, internalXstorage: availableInternalStorage, primaryXcamera: availablePrimaryCamera, secondaryXcamera: availableSecondaryCamera, processorXbrand: availableProcessor}});
     }
   } catch (error) {
     // Handle errors and return a 500 status with the error message
