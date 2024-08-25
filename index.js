@@ -82,43 +82,43 @@ async function getAllProductOfMobilesAndTablets(filters) {
 // Route to handle GET request for "Mobiles & Tablets" collection
 app.get('/collection/mobiles&tablets', async (req, res) => {
   try {
-    const { brand, ram, internalStorage, primaryCamera, secondaryCamera, processor } = req.query;
+    const { brand, ram, internalXstorage, primaryXcamera, secondaryXcamera, processorXbrand } = req.query;
 
     let filters = {};
 
     // Apply brand filter
     if (brand) {
-      const brandName = brand.split(",");
+      const brandName = brand.split(",").map(value => (value.trim())
       filters["features.brand"] = { $in: brandName };
     }
 
     // Apply RAM filter
     if (ram) {
-      const ramValues = ram.split(",").map(value => parseInt(value.trim()))
+      const ramValues = ram.split(",").map(value => (value.trim())
       filters["features.ram"] = { $in: ramValues };
     }
 
     // Apply internal storage filter
-    if (internalStorage) {
-      const internalStorageValues = internalStorage.split(",").map(value => parseInt(value.trim()))
+    if (internalXstorage) {
+      const internalStorageValues = internalXstorage.split(",").map(value => value.trim())
       filters["features.internalStorage"] = { $in: internalStorageValues };
     }
 
     // Apply primary camera filter
-    if (primaryCamera) {
-      const primaryCameraValues = primaryCamera.split(",").map(value => parseInt(value.trim()))
+    if (primaryXcamera) {
+      const primaryCameraValues = primaryXcamera.split(",").map(value => value.trim())
       filters["features.primaryCamera"] = { $in: primaryCameraValues };
     }
 
     // Apply secondary camera filter
-    if (secondaryCamera) {
-      const secondaryCameraValues = secondaryCamera.split(",").map(value => parseInt(value.trim()))
+    if (secondaryXcamera) {
+      const secondaryCameraValues = secondaryXcamera.split(",").map(value => value.trim())
       filters["features.secondaryCamera"] = { $in: secondaryCameraValues };
     }
 
     // Apply processor filter
-    if (processor) {
-      const processorName = processor.split(",");
+    if (processorXbrand) {
+      const processorName = processorXbrand.split(",");
       filters["features.processor"] = { $in: processorName };
     }
 
@@ -162,7 +162,7 @@ async function getAllProductOfLaptops(filters){
 app.get('/collection/laptops', async (req, res) => {
   try {
 
-    const {brand, ram , ssd, type, processorBrand, processorGeneration, processor} = req.query
+    const {brand, ram , ssd, type, processorXbrand, processorXgeneration, processorXname} = req.query
     const filters = {}
 
     if (brand) {
@@ -185,18 +185,18 @@ app.get('/collection/laptops', async (req, res) => {
       filters['features.type'] = { $in : typeNames}
     }
 
-    if (processorBrand) {
-      const processorBrandNames = processorBrand.split(",").map(name => name.trim())
+    if (processorXbrand) {
+      const processorBrandNames = processorXbrand.split(",").map(name => name.trim())
       filters['features.processorBrand'] = { $in : processorBrandNames }
     }
 
-    if (processorGeneration) {
-      const processorGenerationNames = processorGeneration.split(",").map(name => name.trim())
+    if (processorXgeneration) {
+      const processorGenerationNames = processorXgeneration.split(",").map(name => name.trim())
       filters['features.processorGeneration'] = { $in : processorGenerationNames}
     }
 
-    if (processor) {
-      const processorNames = processor.split(",").map(name => name.trim())
+    if (processorXname) {
+      const processorNames = processorXname.split(",").map(name => name.trim())
       filters['features.processor'] = { $in : processorNames}
     }
     
