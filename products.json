@@ -28,10 +28,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 10,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "10 MP",
       "processor": "Exynos"
     },
     "description": [
@@ -72,10 +72,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 6,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 13,
+      "ram": "6 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "13 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -116,10 +116,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 4,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 13,
+      "ram": "4 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "13 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -160,10 +160,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 13,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "13 MP",
       "processor": "Exynos"
     },
     "description": [
@@ -204,10 +204,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 256,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 12,
+      "ram": "8 GB",
+      "internalStorage": "256 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -248,10 +248,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 10,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "10 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -292,10 +292,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 256,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 10,
+      "ram": "8 GB",
+      "internalStorage": "256 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "10 MP",
       "processor": "Exynos"
     },
     "description": [
@@ -336,10 +336,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 32,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "32 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -381,10 +381,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 8,
-      "secondary&nbsp;camera": 12,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "8 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Exynos"
     },
     "description": [
@@ -426,10 +426,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "SAMSUNG",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 13,
-      "secondary&nbsp;camera": 12,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "13 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -470,10 +470,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 4,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 8,
+      "ram": "4 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "8 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -514,10 +514,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 6,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 8,
+      "ram": "6 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "8 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -558,10 +558,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 4,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 8,
+      "ram": "4 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "8 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -602,10 +602,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 6,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 108,
-      "secondary&nbsp;camera": 16,
+      "ram": "6 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "108 MP",
+      "secondaryCamera": "16 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -646,10 +646,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 12,
-      "internal&nbsp;storage": 256,
-      "primary&nbsp;camera": 200,
-      "secondary&nbsp;camera": 16,
+      "ram": "12 GB",
+      "internalStorage": "256 GB",
+      "primaryCamera": "200 MP",
+      "secondaryCamera": "16 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -683,7 +683,6 @@
     "highlights": [
       "8 GB RAM | 256 GB ROM | Expandable Upto 1 TB",
       "17.25 cm (6.79 inch) Full HD+ Display",
-      ,
       "50MP + 2MP | 8MP Front Camera",
       "5000 mAh Battery",
       "Snapdragon 4 Gen 2 Processor"
@@ -691,10 +690,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 8,
-      "internal&nbsp;storage": 256,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 8,
+      "ram": "8 GB",
+      "internalStorage": "256 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "8 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -735,10 +734,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 50,
-      "secondary&nbsp;camera": 16,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "50 MP",
+      "secondaryCamera": "16 MP",
       "processor": "MediaTek"
     },
     "description": [
@@ -780,10 +779,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 4,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 8,
-      "secondary&nbsp;camera": 8,
+      "ram": "4 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "8 MP",
+      "secondaryCamera": "8 MP",
       "processor": "Octa Core"
     },
     "description": [
@@ -825,10 +824,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 6,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 8,
-      "secondary&nbsp;camera": 8,
+      "ram": "6 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "8 MP",
+      "secondaryCamera": "8 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -871,10 +870,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "REDMI",
-      "ram": 8,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 8,
-      "secondary&nbsp;camera": 8,
+      "ram": "8 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "8 MP",
+      "secondaryCamera": "8 MP",
       "processor": "Snapdragon"
     },
     "description": [
@@ -918,10 +917,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 4,
-      "internal&nbsp;storage": 64,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "4 GB",
+      "internalStorage": "64 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -961,10 +960,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 6,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "6 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1004,10 +1003,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 4,
-      "internal&nbsp;storage": 128,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "4 GB",
+      "internalStorage": "128 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1047,10 +1046,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 12,
-      "internal&nbsp;storage": 256,
-      "primary&nbsp;camera": 48,
-      "secondary&nbsp;camera": 12,
+      "ram": "12 GB",
+      "internalStorage": "256 GB",
+      "primaryCamera": "48 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1090,10 +1089,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 12,
-      "internal&nbsp;storage": 512,
-      "primary&nbsp;camera": 48,
-      "secondary&nbsp;camera": 12,
+      "ram": "12 GB",
+      "internalStorage": "512 GB",
+      "primaryCamera": "48 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1133,10 +1132,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 6,
-      "internal&nbsp;storage": 512,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "6 GB",
+      "internalStorage": "512 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1176,10 +1175,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 4,
-      "internal&nbsp;storage": 64,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "4 GB",
+      "internalStorage": "64 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1220,10 +1219,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 4,
-      "internal&nbsp;storage": 64,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "4 GB",
+      "internalStorage": "64 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1266,10 +1265,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 8,
-      "internal&nbsp;storage": 64,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "8 GB",
+      "internalStorage": "64 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1311,10 +1310,10 @@
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
       "brand": "Apple",
-      "ram": 8,
-      "internal&nbsp;storage": 512,
-      "primary&nbsp;camera": 12,
-      "secondary&nbsp;camera": 12,
+      "ram": "8 GB",
+      "internalStorage": "512 GB",
+      "primaryCamera": "12 MP",
+      "secondaryCamera": "12 MP",
       "processor": "Apple"
     },
     "description": [
@@ -1360,8 +1359,8 @@
       "ram": "8 GB",
       "ssd": "512 GB",
       "type": "Thin and Light Laptop",
-      "processor&nbsp;brand": "Intel",
-      "processor&nbsp;generation": "12th Gen",
+      "processorBrand": "Intel",
+      "processorGeneration": "12th Gen",
       "processor": "Core i3"
       
     },
@@ -1405,8 +1404,8 @@
       "ram": "4 GB",
       "ssd": "256 GB",
       "type": "Thin and Light Laptop",
-      "processor&nbsp;brand": "Intel",
-      "processor&nbsp;generation": "12th Gen",
+      "processorBrand": "Intel",
+      "processorGeneration": "12th Gen",
       "processor": "Celeron Dual Core"
     },
     "description": [
@@ -1448,8 +1447,8 @@
       "ram": "32 GB",
       "ssd": "1 TB",
       "type": "Thin and Light Laptop",
-      "processor&nbsp;brand": "AMD",
-      "processor&nbsp;generation": "13th Gen",
+      "processorBrand": "AMD",
+      "processorGeneration": "13th Gen",
       "processor": "Ryzen 3 Quad Core"
     },
     "description": [
@@ -1490,8 +1489,8 @@
       "ram": "16 GB",
       "ssd": "512 GB",
       "type": "Gaming Laptop",
-      "processor&nbsp;brand": "Intel",
-      "processor&nbsp;generation": "12th Gen",
+      "processorBrand": "Intel",
+      "processorGeneration": "12th Gen",
       "processor": "Core i5"
     },
     "description": [
@@ -1513,9 +1512,9 @@
     "rating": 4.2,
     "mrp": 127811,
     "discount": 17,
-    "productImageUrl": "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/t/c/g/-original-imahfmkzkegaqd7b.jpeg",
+    "productImageUrl": "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/4/n/x/-original-imagsnzbavrzbeht.jpeg",
     "productImagesUrl": [
-      "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/t/c/g/-original-imahfmkzkegaqd7b.jpeg",
+      "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/4/n/x/-original-imagsnzbavrzbeht.jpeg",
       "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/i/9/h/-original-imahfmkz2h3vtzre.jpeg",
       "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/d/n/q/-original-imahfmkzq9hchhzg.jpeg",
       "https://rukminim2.flixcart.com/image/500/500/xif0q/computer/9/u/p/-original-imahfmkzum5b3gra.jpeg",
@@ -1532,8 +1531,8 @@
       "ram": "6 GB",
       "ssd": "512 GB",
       "type": "Gaming Laptop",
-      "processor&nbsp;brand": "Intel",
-      "processor&nbsp;generation": "13th Gen",
+      "processorBrand": "Intel",
+      "processorGeneration": "13th Gen",
       "processor": "Core i7"
     },
     "description": [
@@ -1572,12 +1571,12 @@
     ],
     "warranty": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories",
     "features": {
-      "brand": "HP",
+      "brand": "Lenovo",
       "ram": "16 GB",
       "ssd": "1 TB",
       "type": "2 in 1 Laptop",
-      "processor&nbsp;brand": "AMD",
-      "processor&nbsp;generation": "13th Gen",
+      "processorBrand": "AMD",
+      "processorGeneration": "13th Gen",
       "processor": "Ryzen 7 Octa Core"
     },
     "description": [
@@ -1619,8 +1618,8 @@
       "ram": "8 GB",
       "ssd": "512 TB",
       "type": "2 in 1 Laptop",
-      "processor&nbsp;brand": "Intel",
-      "processor&nbsp;generation": "10th Gen",
+      "processorBrand": "Intel",
+      "processorGeneration": "10th Gen",
       "processor": "Core i5"
     },
     "description": [

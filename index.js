@@ -101,19 +101,19 @@ app.get('/collection/mobiles&tablets', async (req, res) => {
     // Apply internal storage filter
     if (internalStorage) {
       const internalStorageValues = internalStorage.split(",").map(value => parseInt(value.trim()))
-      filters["features.internal&nbsp;storage"] = { $in: internalStorageValues };
+      filters["features.internalStorage"] = { $in: internalStorageValues };
     }
 
     // Apply primary camera filter
     if (primaryCamera) {
       const primaryCameraValues = primaryCamera.split(",").map(value => parseInt(value.trim()))
-      filters["features.primary&nbsp;camera"] = { $in: primaryCameraValues };
+      filters["features.primaryCamera"] = { $in: primaryCameraValues };
     }
 
     // Apply secondary camera filter
     if (secondaryCamera) {
       const secondaryCameraValues = secondaryCamera.split(",").map(value => parseInt(value.trim()))
-      filters["features.secondary&nbsp;camera"] = { $in: secondaryCameraValues };
+      filters["features.secondaryCamera"] = { $in: secondaryCameraValues };
     }
 
     // Apply processor filter
@@ -130,9 +130,9 @@ app.get('/collection/mobiles&tablets', async (req, res) => {
 
       const availableBrand = await Products.distinct('features.brand', {collectionType: 'mobiles&tablets'})
       const availableRam = await Products.distinct('features.ram', {collectionType: 'mobiles&tablets'})
-      const availablePrimaryCamera = await Products.distinct('features.primary&nbsp;camera', {collectionType: 'mobiles&tablets'})
-      const availableSecondaryCamera = await Products.distinct('features.secondary&nbsp;camera', {collectionType: 'mobiles&tablets'})
-      const availableInternalStorage = await Products.distinct('features.internal&nbsp;storage', {collectionType: 'mobiles&tablets'})
+      const availablePrimaryCamera = await Products.distinct('features.primaryCamera', {collectionType: 'mobiles&tablets'})
+      const availableSecondaryCamera = await Products.distinct('features.secondaryCamera', {collectionType: 'mobiles&tablets'})
+      const availableInternalStorage = await Products.distinct('features.internalStorage', {collectionType: 'mobiles&tablets'})
       const availableProcessor = await Products.distinct('features.processor', {collectionType: 'mobiles&tablets'})
       
       
@@ -187,12 +187,12 @@ app.get('/collection/laptops', async (req, res) => {
 
     if (processorBrand) {
       const processorBrandNames = processorBrand.split(",").map(name => name.trim())
-      filters['features.processor&nbsp;brand'] = { $in : processorBrandNames }
+      filters['features.processorBrand'] = { $in : processorBrandNames }
     }
 
     if (processorGeneration) {
       const processorGenerationNames = processorGeneration.split(",").map(name => name.trim())
-      filters['features.processor&nbsp;generation'] = { $in : processorGenerationNames}
+      filters['features.processorGeneration'] = { $in : processorGenerationNames}
     }
 
     if (processor) {
@@ -208,8 +208,8 @@ app.get('/collection/laptops', async (req, res) => {
       const availableBrands = await Products.distinct('features.brand', { collectionType : 'laptops' })
       const availableRams = await Products.distinct('features.ram', { collectionType : 'laptops' })
       const availableSsds = await Products.distinct('features.ssd', { collectionType : 'laptops' })
-      const availableProcessorBrands = await Products.distinct('features.processor&nbsp;brand', { collectionType : 'laptops' })
-      const availableProcessorGeneration = await Products.distinct('features.processor&nbsp;generation', { collectionType : 'laptops' })
+      const availableProcessorBrands = await Products.distinct('features.processorBrand', { collectionType : 'laptops' })
+      const availableProcessorGeneration = await Products.distinct('features.processorGeneration', { collectionType : 'laptops' })
       const availableProcessorNames = await Products.distinct('features.processor', { collectionType : 'laptops' })
       
       res.status(200).json({products, filters: {brand: availableBrands, ram: availableRams, ssd: availableSsds, processorXbrand: availableProcessorBrands, processorXgeneration: availableProcessorGeneration, processorXname: availableProcessorNames}})
@@ -220,7 +220,6 @@ app.get('/collection/laptops', async (req, res) => {
     res.status(500).json({error: "An error occurred while fetching products."})
   }
 })
-
 
 
 
