@@ -202,18 +202,17 @@ app.get('/collection/laptops', async (req, res) => {
     
     const products = await getAllProductOfLaptops(filters)
 
-    if(products && products.length > 0){
+    const availableBrands = await Products.distinct('features.brand', { collectionType : 'laptops' })
+    const availableRams = await Products.distinct('features.ram', { collectionType : 'laptops' })
+    const availableSsds = await Products.distinct('features.ssd', { collectionType : 'laptops' })
+    const availableProcessorBrands = await Products.distinct('features.processorBrand', { collectionType : 'laptops' })
+    const availableProcessorGeneration = await Products.distinct('features.processorGeneration', { collectionType : 'laptops' })
+    const availableProcessorNames = await Products.distinct('features.processor', { collectionType : 'laptops' })
 
-      const availableBrands = await Products.distinct('features.brand', { collectionType : 'laptops' })
-      const availableRams = await Products.distinct('features.ram', { collectionType : 'laptops' })
-      const availableSsds = await Products.distinct('features.ssd', { collectionType : 'laptops' })
-      const availableProcessorBrands = await Products.distinct('features.processorBrand', { collectionType : 'laptops' })
-      const availableProcessorGeneration = await Products.distinct('features.processorGeneration', { collectionType : 'laptops' })
-      const availableProcessorNames = await Products.distinct('features.processor', { collectionType : 'laptops' })
-      
+    if(products && products.length > 0){
       res.status(200).json({products, filters: {brand: availableBrands, ram: availableRams, ssd: availableSsds, processorXbrand: availableProcessorBrands, processorXgeneration: availableProcessorGeneration, processorXname: availableProcessorNames}})
     } else {
-      res.status(404).json({error: "No products found matching the criteria."})
+      res.status(404).json({message: "No products found matching the criteria.", filters: {brand: availableBrands, ram: availableRams, ssd: availableSsds, processorXbrand: availableProcessorBrands, processorXgeneration: availableProcessorGeneration, processorXname: availableProcessorNames}})
     }
   } catch (err) {
     res.status(500).json({error: "An error occurred while fetching products."})
